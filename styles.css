@@ -1,0 +1,80 @@
+:root { 
+    --primary-color: antiquewhite;
+    --secondary-color: blue;
+    --text-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;600&display=swap');
+
+body { 
+    background-image: url(images/bg2.png); 
+   
+    
+    font-family: 'Mukta', sans-serif;
+}
+
+#hero-container { 
+    border: solid 1px;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+label { 
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: large;
+}
+
+div h2 { 
+    text-align: center;
+    color: var(--text-color);
+}
+
+input[type="number"] {
+border-width: 1px;
+border-radius: 0.5rem;
+padding: 0.2rem;
+text-align: center;
+font-size: medium;
+
+}
+
+margins { 
+    margin-bottom: 1rem;
+}
+
+#hero-container { 
+    opacity: 0.5rem;
+}
+
+#btn-calc { 
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 1rem 2rem;
+    font-family: 'Mukta', sans-serif;
+    font-size: larger;
+    background-color: var(--primary-color);
+}
+
+#output-message { 
+    border: solid 1px;
+    background-color: var(--primary-color);
+    margin: auto;
+    border-radius: 1rem;
+    width: 50%;
+    padding: 1rem;
+    text-align: center;
+    font-size:x-large;
+
+}
+
+.output-container { 
+margin: 1rem;
+}
