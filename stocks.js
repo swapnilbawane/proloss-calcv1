@@ -30,6 +30,7 @@ function calcStocks () {
    
                 outputMessage.style.display = "block";
                 outputMessage.innerText = `Oh great. The profit is of Rs ${profit} and the your profit percentage is ${profitpercFixed}%`; 
+                outputMessage.style.background = "green";
     
             }
 
